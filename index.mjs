@@ -19,5 +19,5 @@ data.autoclickers = 50;
 
 console.log(`-> ${srcFilename}`);
 writeFileSync(srcFilename, encode(data));
-
-console.log(`All done`);
+var yay=encode(data);
+console.log(`All done `+yay);
